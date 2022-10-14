@@ -4,8 +4,8 @@ public class StringConCat {
 
         System.out.println("Age: " + age);
 
-        System.out.println(age + "years old");
+        System.out.println(age + " years old");
 
-        System.out.println("Age is " + age + "years old");
+        System.out.println("Age is " + age + " years old");
     }
 }
