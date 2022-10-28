@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Addition{
+public class Multiplication{
 
     public static void main(String[] args){
 
@@ -15,8 +15,8 @@ public class Addition{
         System.out.print("Enter second integer: ");
         number2 = input.nextInt();
 
-        sum = number1 + number2;
-        System.out.println(number1 + "+" + number2 + "=" +sum);
+        sum = number1 * number2;
+        System.out.println(number1 + "*" + number2 + "=" +sum);
 
     }
 }
