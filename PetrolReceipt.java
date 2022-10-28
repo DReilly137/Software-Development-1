@@ -6,21 +6,21 @@ public class PetrolReceipt{
 
         Scanner input = new Scanner (System.in);
 
-        String name = "Applegeen Garage";
+        String name;
         double litres;
         double price;
         double time;
-        int date;
+        String date;
         double sum;
 
         System.out.print("Enter garage name: ");
-        name = input.nextInt();
+        name = input.next();
         System.out.print("Enter number of litres: ");
-        litres = input.next();
+        litres = input.nextDouble();
         System.out.print("Enter price/litres: ");
-        price = input.next();
+        price = input.nextDouble();
         System.out.print("Enter time (hh:mi): ");
-        time = input.next();
+        time = input.nextDouble();
         System.out.print("Enter date (dd-mon-yyyy): ");
         date = input.next();
 
