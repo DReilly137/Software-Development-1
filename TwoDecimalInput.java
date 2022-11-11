@@ -6,10 +6,10 @@ public class TwoDecimalInput {
         double number1;
         double number2;
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a decimal number: ");
         number1 = input.nextDouble();
 
-        System.out.print("Enter another number: ");
+        System.out.print("Enter another decimal number: ");
         number2 = input.nextDouble();
          
         System.out.println("Decimal numbers you entered are: " + number1 + " and " + number2);

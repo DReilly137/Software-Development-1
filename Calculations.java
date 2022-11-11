@@ -5,6 +5,7 @@ public class Calculations{
         Scanner input = new Scanner (System.in);
         double x;
         int y;
+        double sum;
 
         System.out.print("Enter a decimal number for x: ");
         x = input.nextDouble();
@@ -13,10 +14,12 @@ public class Calculations{
         y = input.nextInt();
          
         sum = x + y;
-        System.out.println(x + "+" + y + "=" +sum);
+        System.out.println(x + " + " + y + " = " +sum);
 
         sum = x * y;
-        System.out.Println(x + " * " + y + "=" + sum);
+        sum = x * y * 3.1415926535;
+        sum = Math.round(sum * 100.0) / 100.0;
+        System.out.println(x + " * " + y + " = " + sum);
 
     }
 }

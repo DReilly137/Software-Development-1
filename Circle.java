@@ -6,18 +6,20 @@ public class Circle{
 
         Scanner input = new Scanner (System.in);
 
-        double number1;
-        String unit;
-        double sum;
+        int number;
+        double sum1;
+        double sum2;
 
-        System.out.print("Enter the radius of the circle: ");
-        number1 = input.nextInt();
-        System.out.print("Enter the unit of measurement for the circle: ");
-        unit = input.next();
 
-        sum = number1 * number1 * 3.1415926535;
-        sum = Math.round(sum * 100.0) / 100.0;
-        System.out.println("Area of the circle is " + sum + " " + unit);
+        System.out.print("Enter the radius value of a circle: ");
+        number = input.nextInt();
+
+        sum1 = number * 2;
+        System.out.println("Diameter: " + sum1);
+
+        sum2 = sum1 * 3.1415926535;
+        sum2 = Math.round(sum2 * 10.0) / 10.0;
+        System.out.println("Circumference: " + sum2);
 
     }
 }
