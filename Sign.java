@@ -4,21 +4,21 @@ public class Sign{
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
-        int n1;
+        int n;
 
-        System.out.print("Enter number: ");
-        n1=input.nextInt();
+        System.out.print("Enter a number: ");
+        n = input.nextInt();
 
-        if(n1 > 0){
-            System.out.println("Number is positive");
-        }
-        
-        if(n1 < 0){
-            System.out.println("Number is negative");
-        }
-
-        if(n1 == 0){
-            System.out.println("Number is equal to 0");
+        if(n > 0){
+            System.out.println("Number entered is postive");
+        }else{
+            if(n < 0){
+                System.out.println("Number entered is negative");
+            }else{
+                if(n == 0){
+                    System.out.println("Number entered is 0");
+                }
+            }
         }
 
 
