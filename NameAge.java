@@ -12,7 +12,7 @@ public class NameAge{
         System.out.print("Enter your age: ");
         age = input.nextInt();
 
-        System.out.println(name+" you are "+age+" years old. In 20 years time you will be"+(age + 20)+"years old.");
+        System.out.println(name+" you are "+age+" years old. In 20 years time you will be "+(age + 20)+" years old.");
 
     }
 }
