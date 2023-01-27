@@ -9,8 +9,8 @@ public class Last{
         System.out.print("Enter a string: ");
         str = input.next();
 
-        char result = charAt()
-        str.length(-1);
+        
+        System.out.print(str.charAt(str.length()-1));
 
 
     }
