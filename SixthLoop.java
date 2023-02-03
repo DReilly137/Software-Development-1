@@ -10,7 +10,10 @@ public class SixthLoop{
         i = input.nextInt();
 
         while(i < 5){
-            System.out.println("counter = "+i);
+            System.out.println("Before loop");
+            System.out.println("Inside loop- counter = "+i);
+            System.out.println("After while loop");
+            ++i;
         }
 
     }
