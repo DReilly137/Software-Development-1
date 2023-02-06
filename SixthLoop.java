@@ -9,12 +9,12 @@ public class SixthLoop{
         System.out.print("Enter loop counter value: ");
         i = input.nextInt();
 
+        System.out.println("Before loop");
         while(i < 5){
-            System.out.println("Before loop");
             System.out.println("Inside loop- counter = "+i);
-            System.out.println("After while loop");
             ++i;
         }
+        System.out.println("After while loop");
 
     }
 }

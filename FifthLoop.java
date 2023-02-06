@@ -10,7 +10,7 @@ public class FifthLoop{
         System.out.print("Enter a counter value: ");
         counter = input.nextInt();
 
-        while(i < counter){
+        while(i <= counter){
             System.out.println("Loop counter: "+i);
             ++i;
         }
