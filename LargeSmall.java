@@ -23,8 +23,8 @@ public class LargeSmall{
             }
             ++i;
         }
-        System.out.println("max is "+max);
-        System.out.println("min is "+min);
+        System.out.println("The largest number is "+max);
+        System.out.println("The smallest number is "+min);
         input.close();
     }
 }

@@ -7,15 +7,21 @@ public class SoftDevLoop{
         int i = 0;
         int counter = 1;
 
+        
         while(i < 30){
+            if(i==4){
+                System.out.println("Soft");
+            }if(i==15){
+                System.out.println("Dev");
+            }if(i==21){
+                System.out.println("One");
+            }if(i==29){
+                System.out.println("SoftDevOne");  
+            }     
             System.out.println(+counter);
             ++i;
             ++counter;
-        }
-        while(i = 4){
-            System.out.println("Soft");
-            ++i;
-            ++counter;
+            
         }
 
     }
