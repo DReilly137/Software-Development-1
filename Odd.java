@@ -6,9 +6,13 @@ public class Odd{
         Scanner input = new Scanner (System.in);
         int sum=0;
 
-        for(int n=1; n<=15; n+=1){
-            sum+=n;
-        }
+        for(int i=1; i<=15; i++){
+            if(i%2!=0){
+                sum+=i;
+            }
+            }
+            
+        
         System.out.println(sum);
 
     }
