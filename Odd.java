@@ -1,13 +1,15 @@
 import java.util.Scanner;
-public class FirstFor{
+public class Odd{
 
     public static void main(String[] args){
 
         Scanner input = new Scanner (System.in);
+        int sum=0;
 
-        for(int counter=1; counter<= 20; counter++){
-            System.out.println("Counter Value: "+counter);
+        for(int n=1; n<=15; n+=1){
+            sum+=n;
         }
+        System.out.println(sum);
 
     }
 }
