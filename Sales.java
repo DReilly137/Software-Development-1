@@ -27,7 +27,6 @@ public class Sales{
 
         }
         double earnings = 200 + 0.09*sum;
-        System.out.println("Earnings this week: " + sum);
         System.out.println("Earnings this week: "+Math.round(earnings));
 
     }
