@@ -17,7 +17,7 @@ public class LoopCount{
         }
 
         if(i !=0){
-            System.out.println("You looped: "+i+" times.");
+            System.out.println("You looped: "+i+" time(s).");
         }
         
 
