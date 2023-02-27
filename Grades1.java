@@ -14,7 +14,7 @@ public class Grades1{
             grade = input.nextInt();
             ++i;
         }
-        System.out.println(((double) sum/i));
+        System.out.println("Average grade is "+((double) sum/i));
         input.close();
 
     }

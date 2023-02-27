@@ -17,7 +17,7 @@ public class Password{
             }
         }while(!valid);
         if(valid){
-                System.out.println("valid!");
+                System.out.println("Access granted!");
             }
         
 
