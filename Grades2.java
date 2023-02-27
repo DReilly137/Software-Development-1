@@ -4,7 +4,7 @@ public class Grades2{
     public static void main(String[] args){
 
         Scanner input = new Scanner (System.in);
-        int i=0;
+        int i=1;
         int grade=0;
         int sum=0;
 

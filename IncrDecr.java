@@ -22,8 +22,10 @@ public class IncrDecr{
             if(opt == 2){
                 val--;
             }
-        }while(opt != -1);
             System.out.println("Value of number entered: "+val);
+        }while(opt != -1);
+            input.close();
+            
 
     }
 }

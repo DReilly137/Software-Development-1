@@ -4,23 +4,23 @@ public class EvenOdd{
     public static void main(String[] args){
 
         Scanner input = new Scanner (System.in);
-        String c = null;
-        int i=1;
         int n;
+        String cont;
+
         do{
             System.out.print("Enter a number: ");
             n = input.nextInt();
-
-            while(i <= 1){
-                if(n % 2 == 0){
-                    System.out.print("even");
-                }
-                i++;
+            if(n % 2 == 0){
+                System.out.println("even");
             }
-
-            System.out.print("\nTry Again? Y/N: ");
-            c = input.next();
-        }while(c.equalsIgnoreCase("y"));
+            else{
+                System.out.println("odd");
+            }
+            System.out.print("Enter y to continue: ");
+            cont = input.next();
+            if(cont.equals("n"))
+                break;
+        }while(true);
 
 
     }
