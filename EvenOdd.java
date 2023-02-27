@@ -11,7 +11,7 @@ public class EvenOdd{
             System.out.print("Enter a number: ");
             n = input.nextInt();
 
-            while(i < 2){
+            while(i <= 1){
                 if(n % 2 == 0){
                     System.out.print("even");
                 }
