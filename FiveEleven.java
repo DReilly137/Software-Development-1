@@ -29,24 +29,22 @@ public class FiveEleven{
                     output += ", "+i;
                 }  
             }
-            if(i % 11 == 0 && i % 5 == 0){
-              if(output11.length() == 0){
-                    output11 += i;
-                }else{
-                    output11 += ", "+i;
-                }if(output.length() == 0){
-                    output += i;
-                }else{
-                    output += ", "+i;
-                }  
-            }
+            
         }
+        System.out.println();
 
         System.out.println("Divisible by 5:");
         System.out.println(output5);
 
+        System.out.println();
+
         System.out.println("Divisible by 11:");
         System.out.println(output11);
+
+        System.out.println();
+
+        System.out.println("Divisible by 5 and 11:");
+        System.out.println(output);
         
     }
 }
