@@ -1,21 +1,27 @@
 import java.util.Scanner;
-public class Grades{
 
+public class Grades {
     public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int counter = 0;
+        int grade = 0;
+        int total = 0;
+        int i = 2;
+        
+        System.out.print("Enter grade 1 (-1 to quit): ");
+        grade = input.nextInt();
 
-        Scanner input = new Scanner (System.in);
-
-        int i=1, grade=0, sum=0;
-
-        do{
-            sum+=grade;
-            System.out.print("Enter grade "+i+" (0 to quit): ");
+        while(grade != -1){
+            total += grade;
+            System.out.print("Enter grade "+i+" (-1 to quit): ");
             grade = input.nextInt();
-            ++i;
-        }while(grade != 0);
-            
-            System.out.println("Average grade is: "+((double) sum/i));
+            counter++;
+            i++;           
+        }
 
+        if(counter != 0){
+            System.out.println("Average grade is: "+((double) total/counter));
+        }
         input.close();
     }
 }
