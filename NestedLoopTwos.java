@@ -7,9 +7,11 @@ public class NestedLoopTwos{
 
         for(int row=1; row <= 5; row++){
             for(int column=1; column <= 3; column++){
-                System.out.print("2, ");
-            }if(column == 3){
-                System.out.print("2");
+                if(column <3){
+                    System.out.print("2, ");
+                }else{
+                    System.out.print("2");
+                }
             }
             System.out.println();
         }
