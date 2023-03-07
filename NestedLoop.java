@@ -5,10 +5,11 @@ public class NestedLoop{
 
         Scanner input = new Scanner (System.in);
 
-        for(row=1; row <= 5; ++row){
-            for(column=1; column <= 3; ++column){
-                
+        for(int row=1; row <= 5; row++){
+            for(int column=1; column <= 3; column++){
+                System.out.print("1");
             }
+            System.out.println();
         }
 
     }

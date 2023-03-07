@@ -6,7 +6,6 @@ public class Large{
         Scanner input = new Scanner (System.in);
         int n, integer=0;
         int max = 0;  
-        int min = 0;  
 
         System.out.print("Enter number of integers: ");
         n = input.nextInt();
@@ -16,16 +15,10 @@ public class Large{
             integer = input.nextInt();
             if(i == 1){
                 max = integer;
-                min = integer;
             }
             if(integer > max)
             {
                 max = integer;
-            }
- 
-            if(integer < min)
-            {
-                min = integer;
             }
         }
 

@@ -9,10 +9,11 @@ public class Grades{
 
         do{
             sum+=grade;
-            System.out.print("Enter grade "+i+" (-1 to quit): ");
+            System.out.print("Enter grade "+i+" (0 to quit): ");
             grade = input.nextInt();
             ++i;
-        }while(grade != -1);
+        }while(grade != 0);
+            
             System.out.println("Average grade is: "+((double) sum/i));
 
         input.close();
