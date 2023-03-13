@@ -9,7 +9,12 @@ public class Exercise5{
         for(int i=1; i <= 4; i++){
             for(int j=1; j <= 4; j++){
                 System.out.print("\t");
-                System.out.print(j);
+                if(j <= 4-i){
+                System.out.print(" ");
+                }else {
+                    System.out.print(j);
+                }
+                
             }
             System.out.println();
         }
