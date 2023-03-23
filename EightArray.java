@@ -24,7 +24,7 @@ public class EightArray{
         if(found){
             System.out.println("Index\tValue");
             System.out.println();
-            for(int i=0; i < x.length; i++){
+            for(int i=0; i < x.length -1; i++){
                 System.out.println(i+"\t"+x[i]);
             }
             System.out.println();
