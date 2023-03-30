@@ -5,12 +5,12 @@ public class Power{
 
         Scanner input = new Scanner (System.in);
 
-        System.out.print("Enter first number: ")
-        n1 = input.nextInt();
-        System.out.print("Enter second number: ")
-        n2 = input.nextInt();
+        System.out.print("Enter first number: ");
+        int n1 = input.nextInt();
+        System.out.print("Enter second number: ");
+        int n2 = input.nextInt();
 
-        System.out.println(powerof());
+        System.out.println(powerof(n1, n2));
     
 }
 
