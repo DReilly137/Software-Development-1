@@ -5,21 +5,14 @@ public class Exercise4
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-
-        int rows = 3;
          
-        for (int i = 1; i <= rows; i++)
-        {
-            for (int number = 1; number <= rows-i; number++)
-            {
-                System.out.print(" ");
+        for (int i = 1; i < 3; i++){
+            for(int j=2-i; j>0; --j){
+                System.out.print(j+" ");
             }
- 
-            for (int number = i; number < 2*i; number++)
-            {
-                System.out.print(number+" ");
+            for(int k=3-i; k<=3; k++){
+                System.out.print();
             }
- 
             System.out.println();
         }
  
