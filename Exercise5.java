@@ -13,6 +13,8 @@ public class Exercise5{
         }
         System.out.println();
 
+        //method//
+
         System.out.println("Index\tValue");
         System.out.println("-----\t-----");
         for(int i = 0; i < x.length; i++){
