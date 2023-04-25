@@ -6,16 +6,20 @@ public class Exercise2{
         Scanner input = new Scanner (System.in);
 
         System.out.print("Enter first number: ");
-        int first = input.nextInt();
-
+        int n1=input.nextInt();
         System.out.print("Enter second number: ");
-        int second = input.nextInt();
+        int n2=input.nextInt();
+        System.out.print("Enter third number: ");
+        int n3=input.nextInt();
+        System.out.print("Enter fourth number: ");
+        int n4=input.nextInt();
 
-        int result = (first + second) * 4;
-        System.out.println("("+(first)+" + "+(second)+") * 4 = "+result);
+        int sum = (n1+n2+n3+n4) * 2;
+        System.out.println("("+n1+"+"+n2+"+"+n3+"+"+n4+") * 2 = "+sum);
 
         input.close();
 
-
     }
 }
+
+//Darren Reilly - 25/04/2023//

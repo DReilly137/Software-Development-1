@@ -8,20 +8,18 @@ public class Exercise3{
         System.out.print("Enter age: ");
         int age = input.nextInt();
 
-        if(age >= 65){
-            System.out.println("Senior Citizen");
+        if(age >= 50 ){
+            System.out.println("Master");
+        }else if(age >= 40){
+            System.out.println("Senior");
         }else if(age >= 20){
-            System.out.println("Adult");
-        }else if(age >= 13){
-            System.out.println("Teenager");
-        }else if(age >= 4){
-            System.out.println("Child");
-        }else if(age >= 1){
-            System.out.println("Toddler");
-        }else if(age < 1){
-            System.out.println("baby");
+            System.out.println("Intermediate");
+        }else{
+            System.out.println("Junior");
         }
 
-        input.close();
+
     }
 }
+
+//Darren Reilly - 25/04/2023//

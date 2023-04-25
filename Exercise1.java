@@ -3,14 +3,13 @@ public class Exercise1{
 
     public static void main(String[] args){
 
-        Scanner input = new Scanner (System.in);
-        String job = "Carpenter";
-        int age = 47;
-        Double income = 878.23;
+        String name = "Joan", county = "Galway";
+        int age = 4;
 
-        System.out.println("Jim works as a "+job+".");
-        System.out.println("He is "+age+" years old.");
-        System.out.println("He earns "+income+" after tax.");
+        System.out.println(name+" is "+age+".");
+        System.out.println("She lives in "+county);
 
     }
 }
+
+//Darren Reilly - 25/04/2023//
